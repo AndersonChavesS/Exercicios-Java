@@ -11,8 +11,8 @@ public class Pao extends Produto{
 
     }
 
-    public Pao(String nome, double preco, Integer quantidadeEstoque, String dataValidade, double peso,
-               String tipoFarinha, String tipoPao) {
+    public Pao(String nome, double preco, Integer quantidadeEstoque, String dataValidade,
+               double peso, String tipoFarinha, String tipoPao) {
         super(nome, preco, quantidadeEstoque, dataValidade);
         this.peso = peso;
         this.tipoFarinha = tipoFarinha;
